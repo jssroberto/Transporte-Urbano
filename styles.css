@@ -1,5 +1,7 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
@@ -27,8 +29,9 @@ body {
     margin-bottom: 5px;
 }
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
+    font-size: large;
     padding: 20px;
 }
 ul {
@@ -37,7 +40,7 @@ ul {
 }
 
 ul li {
-    font-size: 1.2em;
+    font-size: 24px;
     margin-bottom: 10px;
     position: relative;
 }
@@ -45,7 +48,7 @@ ul li {
 ul li:before{
     content: '\2022'; /* Código del punto */
     color: #960e53; /* Color del punto */
-    font-size: 1.2em; /* Tamaño del punto */
+    font-size: 1.4em; /* Tamaño del punto */
     position: absolute;
     left: -20px; /* Distancia del punto respecto al texto */
     top: 0;
@@ -59,7 +62,7 @@ h1, h2 {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-bottom: 20px;
     line-height: 1.6;
 }
@@ -105,7 +108,7 @@ nav {
 .navbar a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.1em;
+    /* font-size: 22px; */
     font-weight: bold;
     padding: 10px 20px;
     transition: all 0.3s ease;
@@ -114,4 +117,8 @@ nav {
 .navbar a:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
+}
+
+.bienvenida{
+    font-size: 80px;
 }
